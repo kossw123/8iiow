@@ -21,4 +21,6 @@ If you want to use this theme as a project page blog, you don't need to rename t
 
 All you need to do, open `_config.yml` file, change `baseurl` to your project name which contains this theme, e.g. `baseurl: "/myproject"`.
 
+- 한글 시험
+
 #### Cheers!
