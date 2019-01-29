@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+Hello, This Space about Practice of FrameWork or Game Engine. :)
+I'm from Seoul, South Korea and Beginner Game Programmer
+Advice always welcome about my Data
