@@ -10,4 +10,5 @@ AMQ, 8iiow Repository
    
    
 - Hi, I'm 8iiow, This Space about Practice of FrameWork or Game Engine 
-- Beginner Programer
+- I'm Beginner Programer
+- Advice always welcome about my Portfolio
