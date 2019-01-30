@@ -3,8 +3,8 @@ title_left    : "A"
 title_right   : "MQ" # default: ""
 description   : "Client Programer"
 keywords      : ""
-url           : http://8iiow.gq/ # site url
-baseurl       : "myproject" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+url           : http://8iiow.gq/_posts # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-XXXXX-XX
