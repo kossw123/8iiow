@@ -4,7 +4,7 @@ title_right   : "MQ" # default: ""
 description   : "Client Programer"
 keywords      : ""
 url           : https://heiswayi.github.io/thinkspace # site url
-baseurl       : "/_post" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+baseurl       : "/_posts" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-XXXXX-XX
