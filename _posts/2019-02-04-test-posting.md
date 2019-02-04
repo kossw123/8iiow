@@ -5,7 +5,7 @@ description: "There is no one who loves pain itself, who seeks after it and want
 comments: true
 keywords: "dummy content, lorem ipsum"
 ---
-![Picture1](./img/ThumbsUp.png)
+![Picture1]({{ "./img/ThumbsUp.png" }})
 
 
 
