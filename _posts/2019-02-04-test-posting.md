@@ -6,3 +6,7 @@ comments: true
 keywords: "dummy content, lorem ipsum"
 ---
 ![Picture1](./img/ThumbsUp.png)
+
+
+[get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }})
+
