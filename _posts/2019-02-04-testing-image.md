@@ -7,7 +7,7 @@ keywords: "dummy content, lorem ipsum"
 ---
 
 
-![Picture1]({{ "./assets/images/author.jpg" | 8iiow.github.io/assets/images/author.jpg }})
+![Picture1]({{ "./assets/images/author.jpg" }})
 
 
 
