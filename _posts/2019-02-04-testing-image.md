@@ -8,6 +8,7 @@ keywords: "dummy content, lorem ipsum"
 
 
 ![Picture1]({{ "/assets/images/author.jpg" }})
+![Picture2]({{ "/assets/images/unnamed.png" }})
 
 
 
