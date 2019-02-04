@@ -7,3 +7,8 @@ keywords: "dummy content, lorem ipsum"
 ---
 ![Picture1]("/assets/images/author.jpg" | 8iiow.github.io/assets/images/author.jpg)
 
+
+![Picture2]("/assets/images/unnamed.png" | 8iiow.github.io/assets/images/unnamed.png)
+
+
+
