@@ -5,4 +5,4 @@ description: "There is no one who loves pain itself, who seeks after it and want
 comments: true
 keywords: "dummy content, lorem ipsum"
 ---
-![SCREENSHOT](./img/ThumbsUp.png)
+![SCREENSHOT](/img/ThumbsUp.png)
