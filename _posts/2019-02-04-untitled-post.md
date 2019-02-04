@@ -134,7 +134,6 @@ Portfollio 정리
 - Obj클래스에서 작성한 Object들의 원본 보존을 위해 Scene클래스에서 ProtoType을 만들어서 복사하여 사용
 - 또한 객체를 가져올 때 마다 읽어오는 속도를 줄이기 위해 사용
 - Map형식의 ProtoType은 Obj를 Value값으로 받아 Template으로 전역변수 등록한다.
--
 
  Object
 - 하나의 객체, 즉 캐릭터, 총알, 벽 같은 사물을 생성하는데 필요한 기능이며, Ref클래스를 상속받는다.
