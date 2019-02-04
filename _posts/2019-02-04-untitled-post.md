@@ -10,38 +10,38 @@ Win32 API FrameWork
 Portfollio 정리
 
 
-01. Core
- 01. Timer
- 02. Camera
- 03. Path
- 04. Input
- 05. Math
- 06. Core
- 07. Ref
-02. Scene
- 01. Layer
- 02. InGameScene
- 03. Scene
- 04. SceneManager
-03. Object
- 01. MoveObj
-   01. Player
-   02. Minion
-   03. Bullet
- 02. StaticObj
-   01. Stage
- 03. Obj
-04. Resource
- 01. ResourceManager
- 02. Texture
-05. Collider
- 01. Collider
- 02. ColliderPixel
- 03. ColliderRect
- 04. ColliderSphere
- 05. ColliderManager
-06. Animation
- 01. Animation
+    01. Core
+     01. Timer
+     02. Camera
+     03. Path
+     04. Input
+     05. Math
+     06. Core
+     07. Ref
+    02. Scene
+     01. Layer
+     02. InGameScene
+     03. Scene
+     04. SceneManager
+    03. Object
+     01. MoveObj
+       01. Player
+       02. Minion
+       03. Bullet
+     02. StaticObj
+       01. Stage
+     03. Obj
+    04. Resource
+     01. ResourceManager
+     02. Texture
+    05. Collider
+     01. Collider
+     02. ColliderPixel
+     03. ColliderRect
+     04. ColliderSphere
+     05. ColliderManager
+    06. Animation
+     01. Animation
 
 
 - 가장 기초적인 게임의 흐름을 알아보기 위해 Win32 API를 써서 제작
@@ -76,26 +76,26 @@ Portfollio 정리
 - 기능들에 Timer를 적용시키기 위해 원하는 지점과 종료점에서 Timer를 호출해야하는데 이 지점은 CPU의
   클럭 타임이 된다. 그래서 따로 LARGE_INTEGER타입으로 Time변수의 QuadPart 값으로 설정한다.
 
-  m_fDeltaTime = (tTime.QuadPart - m_tTime.QuadPart) / (float)m_tSecond.QuadPart;
+      m_fDeltaTime = (tTime.QuadPart - m_tTime.QuadPart) / (float)m_tSecond.QuadPart;
 
 - 이전 프레임(시작점)과 다음 프레임(종료점)의 차이를 시간단위로 나누면 프레임마다 걸리는 시간이
   나오기 때문에 일정한 시간의 흐름을 가지게 된다.
 
-*** QueryFrequencyCount
-     기기가 동작하는 타이밍이 있는데 클럭에 따라 동작하고 안하고 한다.
-     이 함수는 메인보드의 고해상도 타이머의 주파를 반환한다.
+      QueryFrequencyCount
+      기기가 동작하는 타이밍이 있는데 클럭에 따라 동작하고 안하고 한다.
+      이 함수는 메인보드의 고해상도 타이머의 주파를 반환한다.
       컴퓨터의 메인보드에는 하나의 고해상도 타이머가 존재. 이 타이머는 정확하고 일정한 주파수
-     (즉, 1초에 각 타이머의 성능에 맞는 진동수)를 갖기 때문에 측정하고자 하는 코드들의 시작과 끝에서
-     CPU 클럭수를 얻어 그 차로 수행시간을 얻을 수 있다.
+      (즉, 1초에 각 타이머의 성능에 맞는 진동수)를 갖기 때문에 측정하고자 하는 코드들의 시작과 끝에서
+      CPU 클럭수를 얻어 그 차로 수행시간을 얻을 수 있다.
 
-     1. 처음에 초기화 할 때 LARGE_INTEGER 타입으로 초기화 한다.
+      1. 처음에 초기화 할 때 LARGE_INTEGER 타입으로 초기화 한다.
         이 때 타이머가 지원되는 경우 0 이 아니고, 지원 안되는 경우 0 으로 초기화
         지금은 지원 안되기 때문에 0으로 초기화
-     2. 함수가 호출된 시점의 타이머 값이 설정되어 클럭을 받아온다.
-     3. C 클럭수 = B 클럭수 - A 클럭수
+      2. 함수가 호출된 시점의 타이머 값이 설정되어 클럭을 받아온다.
+      3. C 클럭수 = B 클럭수 - A 클럭수
         수행시간 (second 단위) = C클럭수 / 주파수
         수행시간 (millisecond단위) = C클럭수 / (주파수 / 1000)
-     4. Update함수에서 다시 클럭을 받아온 다음에 초기화한 클럭를 빼서 시간당 프레임을 측정
+      4. Update함수에서 다시 클럭을 받아온 다음에 초기화한 클럭를 빼서 시간당 프레임을 측정
 
 
 
@@ -240,8 +240,8 @@ Minion
 - BITMAP파일을 읽어오기 위해 BITMAPFILEHEADER, BITMAPINFOHEADER 변수를 이용하여
   각각 파일의 정보와, BITMAP정보를 읽어온다
 
- BITMAPFILEHEADER {
- WORD    bfType;
+       BITMAPFILEHEADER {
+       WORD    bfType;
        DWORD   bfSize;
        WORD    bfReserved1;
        WORD    bfReserved2;
@@ -252,7 +252,7 @@ Minion
 
 
       BITMAPINFOHEADER {
- DWORD      biSize;
+       DWORD      biSize;
        LONG       biWidth;
        LONG       biHeight;
        WORD       biPlanes;
