@@ -5,10 +5,10 @@ description: "There is no one who loves pain itself, who seeks after it and want
 comments: true
 keywords: "dummy content, lorem ipsum"
 ---
-![Picture1]("/assets/images/author.jpg" | 8iiow.github.io/assets/images/author.jpg)
+![Picture1]("/assets/images/author.jpg")
 
 
-![Picture2]("/assets/images/unnamed.png" | 8iiow.github.io/assets/images/unnamed.png)
+![Picture2]("/assets/images/unnamed.png")
 
 
 
