@@ -6,3 +6,5 @@ comments: true
 keywords: "dummy content, lorem ipsum"
 ---
 ![Picture1](./img/unnamed.png)
+![Picture1]({{ "./img/unnamed.png"}})
+
