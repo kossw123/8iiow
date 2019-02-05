@@ -10,7 +10,7 @@ Win32 API FrameWork
 Portfollio 정리
 
 
-    01. Core
+    01. [Core]({% link _posts/2019-02-04-testing-image.md %})
      01. Timer
      02. Camera
      03. Path
