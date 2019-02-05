@@ -14,7 +14,7 @@ keywords: "dummy content, lorem ipsum"
 ... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }}) directly.
 
 
-{{ }}{% https://8iiow.gq/2019/test-posting/ 2010-07-21-name-of-post %}
+{{ http://8iiow.gq }}{% https://8iiow.gq/2019/2019-02-04-testing-image.md %}
 
 
 correct
