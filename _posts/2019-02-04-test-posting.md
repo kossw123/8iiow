@@ -14,7 +14,7 @@ keywords: "dummy content, lorem ipsum"
 ... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }}) directly.
 
 
-[게시물 연결하기]({% link _posts/2019-02-04-testing-image.md %})
+         01.[게시물 연결하기]({% link _posts/2019-02-04-testing-image.md %})
 
 게시물 
 
