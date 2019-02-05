@@ -15,6 +15,7 @@ keywords: "dummy content, lorem ipsum"
 
 
 {{ http://8iiow.gq }}{% https://8iiow.gq/2019/2019-02-04-testing-image.md %}
+-> 게시물 연결하기
 
 
 correct
