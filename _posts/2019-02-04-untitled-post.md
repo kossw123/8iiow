@@ -43,6 +43,12 @@ Portfollio 정리
     06. Animation
      - Animation
 
+{% highlight ruby %}
+- PDF 파일 원본
+... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }}) directly.
+{% endhighlight %}
+
+
 
 - 가장 기초적인 게임의 흐름을 알아보기 위해 Win32 API를 써서 제작
 - 기본적인 Win32 API를 cpp와 header로 기능별로 나눔
