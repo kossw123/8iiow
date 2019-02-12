@@ -11,37 +11,37 @@ Portfollio 정리
 
 
     01. Core
-     01. Timer
-     02. Camera
-     03. Path
-     04. Input
-     05. Math
-     06. Core
-     07. Ref
+     - Timer
+     - Camera
+     - Path
+     - Input
+     - Math
+     - Core
+     - Ref
     02. Scene
-     01. Layer
-     02. InGameScene
-     03. Scene
-     04. SceneManager
+     - Layer
+     - InGameScene
+     - Scene
+     - SceneManager
     03. Object
      01. MoveObj
-       01. Player
-       02. Minion
-       03. Bullet
+       - Player
+       - Minion
+       - Bullet
      02. StaticObj
-       01. Stage
+       - Stage
      03. Obj
     04. Resource
-     01. ResourceManager
-     02. Texture
+     - ResourceManager
+     - Texture
     05. Collider
-     01. Collider
-     02. ColliderPixel
-     03. ColliderRect
-     04. ColliderSphere
-     05. ColliderManager
+     - Collider
+     - ColliderPixel
+     - ColliderRect
+     - ColliderSphere
+     - ColliderManager
     06. Animation
-     01. Animation
+     - Animation
 
 
 - 가장 기초적인 게임의 흐름을 알아보기 위해 Win32 API를 써서 제작
