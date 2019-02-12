@@ -44,9 +44,9 @@ Portfollio 정리
      - Animation
 
 {% highlight ruby %}
-- PDF 파일 원본
+ PDF 파일 원본
+ ... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }}) directly.
 {% endhighlight %}
-... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }}) directly.
 
 
 
