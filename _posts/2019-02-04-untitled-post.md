@@ -10,7 +10,7 @@ Win32 API FrameWork
 Portfollio 정리
 
 
-    01. [Core]({% link _posts/2019-02-04-testing-image.md %})
+    01. Core
      01. Timer
      02. Camera
      03. Path
@@ -53,11 +53,16 @@ Portfollio 정리
 
 - 프레임워크 내부의 조직도는 아래의 PDF파일을 첨부
 
+ [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }})
+
 - 기본적으로 main.cpp에서는 Core.cpp를 실행시키고 화면을 출력하는 WinMain이 포함
 - 주요 기능들을 Core에 설계함으로써 Core를 전체적인 설계의 중심으로 만듬
 - Message를 무한루프 시켜서 이벤트를 발생 시키는 GetMessage() 부분을 PeekMessage()로 바꿔서
   DeadTime을 활용하여 그 안에 게임로직을 넣는다.
-
+  
+- FrameWork 순환도는 아래 PDF파일을 첨부
+ 
+[get the PDF]({{ "/assets/images/프레임워크순환도.pdf" }})
 
   Core
 - 기본적으로 Input(), Update(), LateUpdate(), Collision(), Render() 부분으로 나누어서 제작
