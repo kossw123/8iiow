@@ -45,8 +45,8 @@ Portfollio 정리
 
 {% highlight ruby %}
 - PDF 파일 원본
-... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }}) directly.
 {% endhighlight %}
+... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }}) directly.
 
 
 
@@ -59,7 +59,11 @@ Portfollio 정리
 
 - 프레임워크 내부의 조직도는 아래의 PDF파일을 첨부
 
+{% highlight ruby %}
  [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }})
+{% endhighlight %}
+
+
 
 - 기본적으로 main.cpp에서는 Core.cpp를 실행시키고 화면을 출력하는 WinMain이 포함
 - 주요 기능들을 Core에 설계함으로써 Core를 전체적인 설계의 중심으로 만듬
@@ -68,7 +72,11 @@ Portfollio 정리
   
 - FrameWork 순환도는 아래 PDF파일을 첨부
  
-[get the PDF]({{ "/assets/images/프레임워크순환도.pdf" }})
+{% highlight ruby %}
+ [get the PDF]({{ "/assets/images/프레임워크순환도.pdf" }})
+{% endhighlight %}
+
+
 
   Core
 - 기본적으로 Input(), Update(), LateUpdate(), Collision(), Render() 부분으로 나누어서 제작
