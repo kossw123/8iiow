@@ -57,11 +57,10 @@ Portfollio 정리
  - 다른 클래스들이 데이터를 쉽게 공유할 수 있다.
 - 하지만 다른 객체들간의 결합도가 높아질수록 Debuging 과정이 어려워짐
 
-- 프레임워크 내부의 조직도는 아래의 PDF파일을 첨부
-
 {% highlight ruby %}
- [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }})
+- 프레임워크 내부의 조직도는 아래의 PDF파일을 첨부
 {% endhighlight %}
+... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }})
 
 
 
@@ -69,12 +68,12 @@ Portfollio 정리
 - 주요 기능들을 Core에 설계함으로써 Core를 전체적인 설계의 중심으로 만듬
 - Message를 무한루프 시켜서 이벤트를 발생 시키는 GetMessage() 부분을 PeekMessage()로 바꿔서
   DeadTime을 활용하여 그 안에 게임로직을 넣는다.
-  
-- FrameWork 순환도는 아래 PDF파일을 첨부
- 
+
+
 {% highlight ruby %}
- [get the PDF]({{ "/assets/images/프레임워크순환도.pdf" }})
+- FrameWork 순환도는 아래 PDF파일을 첨부
 {% endhighlight %}
+... you can [get the PDF]({{ "/assets/images/프레임워크순환도.pdf" }})
 
 
 
