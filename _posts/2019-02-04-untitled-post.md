@@ -42,11 +42,17 @@ Portfollio 정리
      - ColliderManager
     06. Animation
      - Animation
+	 
+	 
+{% highlight ruby %}
+- FrameWork 제작 영상
+{% endhighlight %}
+...... you can [get the Video]({{ "https://youtu.be/LR-x4PDjO98" }}) directly.
 
 {% highlight ruby %}
- PDF 파일 원본
- ... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }}) directly.
+- PDF 파일 원본
 {% endhighlight %}
+... you can [get the PDF]({{ "/assets/images/Win32 API FrameWork_PDF.pdf" }}) directly.
 
 
 
