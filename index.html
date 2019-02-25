@@ -22,15 +22,5 @@ title: Home
         <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
       </article>
     {% endfor %}
-  </div>
-  
-	<div style="border: 1px dashed #BDBDBD; width 200px; height 285px; margin-left: auto; margin-right: auto;
-		padding: 5px; text-align: center; vertical-align:middle;">
-   	    {% for post in site.posts %}
-		<article class="post-item">
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
-        </article>
-	    {% endfor %}
 	</div>
-
 </section>
