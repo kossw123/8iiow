@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unreal Item and Multi Skeleton Reckdoll Collsion"
+title: "Unreal DataTable"
 description: "Reckdoll"
 comments: true
 keywords: "dummy content, lorem ipsum"
@@ -8,4 +8,4 @@ keywords: "dummy content, lorem ipsum"
 Unreal Map Create Portfolio
 draft Create Editing...
 
-...... you can [get the PDF]({{ "/assets/images/Unreal_Item_v2.pdf" }}) directly.
+...... you can [get the PDF]({{ "/assets/images/Unreal_DataTable.pdf" }}) directly.
